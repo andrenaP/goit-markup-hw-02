@@ -339,7 +339,7 @@ border: 1px solid var(--CORNFLOWER);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .portfolio-img {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
 background-blend-mode: soft-light, normal;
 mix-blend-mode: normal;
 }

@@ -189,7 +189,7 @@ color: var(--NAVY-BLUE);
 .about-item {
 }
 .about-img {
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
 background-blend-mode: soft-light, normal;
 
 border: 1px solid var(--CORNFLOWER);

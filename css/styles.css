@@ -8,7 +8,10 @@
     --White-color:#FFFFFF;
   }
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE);
+    background-color: var(--White-color);
+    font-size: 16px;
 }
 .list {
     list-style: none;
@@ -25,7 +28,7 @@ body{
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     margin: -1px;
  }
 
@@ -72,16 +75,18 @@ button{
     cursor: pointer;
 }
 .header-list {
+
+
+}
+.header-item {
+
+}
+.header-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--NAVY-BLUE);
-
-}
-.header-item {
-}
-.header-link {
 }
 
 .header-address {

@@ -40,13 +40,15 @@ body{
     color: var(--active-color);
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     background:  var(--active-color);
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
     background:  var(--active-color);
     color: var(--White-color);
+    cursor: pointer;
 }
 
  .header-link:hover,
@@ -132,7 +134,7 @@ color: var(--White-color);
 }
 .hero-button {
     
-
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -297,35 +299,12 @@ color: var(--CORNFLOWER);
 .portfolio-item-button {
 }
 .portfolio-button {
-    box-sizing: border-box;
-
-/* Auto layout */
-
-
-flex-direction: row;
-justify-content: center;
-
-padding: 12px 24px;
-
-
-/* CLOUD */
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 background: var(--CLOUD);
-/* CORNFLOWER */
-
-border: 1px solid var(--CORNFLOWER);
-border-radius: 4px;
-
-
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-
-text-align: center;
-letter-spacing: 0.04em;
-
-/* IRIS */
-
 color: var(--Iris);
 
 }
@@ -349,33 +328,16 @@ background-blend-mode: soft-light, normal;
 mix-blend-mode: normal;
 }
 .portfolio-list-header {
-
-
-
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
 color: var(--NAVY-BLUE);
 }
 .portfolio-list-text {
-    /* Body */
-
-
-
-
 font-size: 16px;
 line-height: 1.5;
-
-
 letter-spacing: 0.02em;
-
-/* SLATE */
-
 color: var(--SLATE);
 
 }

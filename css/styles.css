@@ -112,7 +112,10 @@ letter-spacing: 0.02em;
 color: var(--SLATE);
 }
 
-
+.header-address-tel-link:hover,
+.header-address-tel-link:focus{
+    color: var(--active-color);
+}
 .main {
 }
 .hero {

@@ -52,7 +52,8 @@ body{
 }
 
  .header-link:hover,
-.header-link:focus
+.header-link:focus,
+.header-link.current
  {
   color: var(--active-color);
 }
@@ -62,7 +63,7 @@ body{
 .header-navigation {
 }
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 
 font-weight: 800;
 font-size: 18px;
@@ -85,7 +86,6 @@ button{
 }
 .header-link {
 font-weight: 500;
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--NAVY-BLUE);
@@ -99,7 +99,6 @@ color: var(--NAVY-BLUE);
 }
 .header-address-email-link {
 
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
@@ -107,9 +106,6 @@ font-style: normal;
 }
 .header-address-tel-link{
     
-
-
-font-size: 16px;
 line-height: 1.5;
 font-style: normal;
 letter-spacing: 0.02em;
@@ -134,7 +130,7 @@ color: var(--White-color);
 }
 .hero-button {
     
-font-family: "Roboto", sans-serif;
+font-family: inherit; 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -168,8 +164,6 @@ color: var(--NAVY-BLUE);
 .features-list-text {
 
 
-
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
@@ -242,9 +236,6 @@ color: var(--NAVY-BLUE);
 }
 .team-list-text {
 
-
-
-font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
@@ -255,7 +246,7 @@ color: var(--SLATE);
     background-color: var(--NAVY-BLUE);
 }
 .footer-header {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 
 font-weight: 800;
 font-size: 18px;
@@ -274,8 +265,6 @@ color: var(--CLOUD);
 .footer-text {
     
 
-
-font-size: 16px;
 line-height: 1.5;
 
 
@@ -299,13 +288,16 @@ color: var(--CORNFLOWER);
 .portfolio-item-button {
 }
 .portfolio-button {
-    font-family: "Roboto", sans-serif;
+    font-family: inherit; 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 background: var(--CLOUD);
 color: var(--Iris);
+border: 1px solid var(--CORNFLOWER);
+border-radius: 4px;
+
 
 }
 .portfolio {
@@ -335,7 +327,6 @@ letter-spacing: 0.02em;
 color: var(--NAVY-BLUE);
 }
 .portfolio-list-text {
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
